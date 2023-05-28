@@ -11,6 +11,7 @@ import java.util.Collections;
 /**
  * Générateur de labyrinthes avec implémentation itérative
  * de l'algorithme de Kruskal à l'aide d'une structure Union-Find.
+ *
  * @author Farouk Ferchichi & Hugo Huart
  */
 public final class KruskalMazeGenerator implements MazeGenerator {

@@ -4,6 +4,7 @@ package gre.lab2.groupe16;
  * Implémentation d'une structure Union-Find avec représentation par des arbres.
  * Utilise la méthode de <i>path-splitting</i> pour les opérations <i>find</i>.
  * Utilise la méthode d'union par rang pour les opérations <i>union</i>.
+ *
  * @author Farouk Ferchichi & Hugo Huart
  */
 final class UnionFind {
@@ -13,6 +14,7 @@ final class UnionFind {
 
   /**
    * Constructeur de la classe UnionFind.
+   *
    * @param size Nombre d'éléments.
    */
   public UnionFind(int size) {
@@ -28,6 +30,7 @@ final class UnionFind {
 
   /**
    * Vérifie l'existence d'un élément v selon la taille totale.
+   *
    * @param v Un élément.
    * @throws IllegalArgumentException Si v ne fait pas partie des sous-ensembles.
    */
@@ -39,6 +42,7 @@ final class UnionFind {
 
   /**
    * Retourne un entier correspondant au représentant de v, avec <i>path-splitting</i>.
+   *
    * @param v Un élément.
    * @return Le représentant de v.
    */
@@ -54,6 +58,7 @@ final class UnionFind {
 
   /**
    * Effectue l'union par rang des sous-ensembles de u et v.
+   *
    * @param u Un élément.
    * @param v Un élément.
    * @return Vrai si u et v sont membres de deux ensemble disjoints, faux sinon.

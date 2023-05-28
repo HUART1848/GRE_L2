@@ -8,6 +8,7 @@ import java.util.*;
 
 /**
  * Solver de labyrinthe avec implémentation itérative d'un parcours en largeur (BFS).
+ *
  * @author Farouk Ferchichi & Hugo Huart
  */
 public final class BfsSolver implements MazeSolver {
